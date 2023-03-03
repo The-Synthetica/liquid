@@ -107,11 +107,11 @@ setInterval(() => {
 
             circlesTouched[i].style.transition= 'scale 2s linear, left 0.1s cubic-bezier(.02,1.31,.79,1.55), top 0.1s cubic-bezier(.02,1.31,.79,1.55)';
 
-            circlesTouched[i].style.scale= '1.25';
+            circlesTouched[i].style.scale= '1.15';
 
             setTimeout(() => {
                 circlesTouched[i].style.scale= '0';
-            }, 2000);
+            }, 1000);
 
             // circlesTouched[i].style.left= cOutLeft + 'px';
             // circlesTouched[i].style.top= cOutTop + 'px';
